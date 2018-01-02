@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		FD14D2D41FFBEBE800970758 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD14D2D31FFBEBE800970758 /* AppDelegate.swift */; };
-		FD14D2D61FFBEBE800970758 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD14D2D51FFBEBE800970758 /* ViewController.swift */; };
 		FD14D2D91FFBEBE800970758 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD14D2D71FFBEBE800970758 /* Main.storyboard */; };
 		FD14D2DB1FFBEBE800970758 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD14D2DA1FFBEBE800970758 /* Assets.xcassets */; };
 		FD14D2DE1FFBEBE800970758 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD14D2DC1FFBEBE800970758 /* LaunchScreen.storyboard */; };
+		FD14D2E61FFBECFC00970758 /* TouchesAndViewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD14D2E51FFBECFC00970758 /* TouchesAndViewsViewController.swift */; };
+		FD14D2E81FFBEE5400970758 /* ButtonsAndLabelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD14D2E71FFBEE5400970758 /* ButtonsAndLabelsViewController.swift */; };
+		FD14D2EA1FFBF4FA00970758 /* StudentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD14D2E91FFBF4FA00970758 /* StudentTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FD14D2D01FFBEBE800970758 /* FirstDayDemoNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstDayDemoNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD14D2D31FFBEBE800970758 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD14D2D51FFBEBE800970758 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FD14D2D81FFBEBE800970758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD14D2DA1FFBEBE800970758 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD14D2DD1FFBEBE800970758 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD14D2DF1FFBEBE800970758 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD14D2E51FFBECFC00970758 /* TouchesAndViewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchesAndViewsViewController.swift; sourceTree = "<group>"; };
+		FD14D2E71FFBEE5400970758 /* ButtonsAndLabelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsAndLabelsViewController.swift; sourceTree = "<group>"; };
+		FD14D2E91FFBF4FA00970758 /* StudentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				FD14D2D31FFBEBE800970758 /* AppDelegate.swift */,
-				FD14D2D51FFBEBE800970758 /* ViewController.swift */,
 				FD14D2D71FFBEBE800970758 /* Main.storyboard */,
 				FD14D2DA1FFBEBE800970758 /* Assets.xcassets */,
 				FD14D2DC1FFBEBE800970758 /* LaunchScreen.storyboard */,
 				FD14D2DF1FFBEBE800970758 /* Info.plist */,
+				FD14D2E51FFBECFC00970758 /* TouchesAndViewsViewController.swift */,
+				FD14D2E71FFBEE5400970758 /* ButtonsAndLabelsViewController.swift */,
+				FD14D2E91FFBF4FA00970758 /* StudentTableViewController.swift */,
 			);
 			path = FirstDayDemoNew;
 			sourceTree = "<group>";
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD14D2D61FFBEBE800970758 /* ViewController.swift in Sources */,
 				FD14D2D41FFBEBE800970758 /* AppDelegate.swift in Sources */,
+				FD14D2E61FFBECFC00970758 /* TouchesAndViewsViewController.swift in Sources */,
+				FD14D2EA1FFBF4FA00970758 /* StudentTableViewController.swift in Sources */,
+				FD14D2E81FFBEE5400970758 /* ButtonsAndLabelsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
