@@ -11,11 +11,6 @@ import UIKit
 class TouchesAndViewsViewController: UIViewController {
 
   @IBOutlet weak var logoImageView: UIImageView!
-  override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
 
   override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
     if let touch = touches.first {
@@ -25,7 +20,5 @@ class TouchesAndViewsViewController: UIViewController {
       logoImageView.center = position
       UIView.commitAnimations()
     }
-
   }
-
 }
